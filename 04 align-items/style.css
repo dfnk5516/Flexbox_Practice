@@ -1,0 +1,27 @@
+.container{
+  border : 4px solid;
+  display : flex;
+  flex-wrap : wrap;
+  height : 400px;
+  /* default value > height 지워야 적용됨*/
+  /* align-items : stretch  */
+  /* align-content : flex-start; */
+  /* align-items : flex-start; */
+  /* align-items : flex-end; */
+  /* align-content : center; */
+  /* align-items : center; */
+  align-items : baseline;
+}
+.container .item{
+  width : 120px;
+  height : 100px;
+  background : tomato;
+  border : 4px dashed red;
+  border-radius : 10px;
+  font-size : 30px;
+}
+
+/* align-items : baseline */
+.container .item:nth-child(3){
+  font-size:50px;
+}

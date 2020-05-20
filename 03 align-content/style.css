@@ -1,0 +1,20 @@
+.container{
+  border : 4px solid;
+  display : flex;
+  flex-wrap : wrap;
+  height : 400px;
+  /* default value > height 지워야 적용됨*/
+  /* align-content : stretch  */
+
+  /* align-content : flex-start; */
+  /* align-content : center; */
+  /* align-content : space-between; */
+  /* align-content : space-around; */
+}
+.container .item{
+  width : 120px;
+  height : 100px;
+  background : tomato;
+  border : 4px dashed red;
+  border-radius : 10px;
+}
